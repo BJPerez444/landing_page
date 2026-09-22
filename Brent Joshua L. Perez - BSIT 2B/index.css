@@ -1,0 +1,169 @@
+/* ===== Global Styles ===== */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #ffffff;
+    color: #333;
+    font-family: Arial, sans-serif;
+    text-align: center;
+}
+
+h1, h2 {
+    color: #00008b;
+    margin: 15px 0;
+}
+
+hr {
+    border: none;
+    background-color: darkblue;
+    margin: 15px auto;
+}
+
+p {
+    margin: 8px 0;
+}
+
+b {
+    color: #00008b;
+}
+
+i {
+    color: #2c2c2c;
+}
+
+.header-container {
+    margin: 20px auto;
+}
+
+.header-container h1 {
+    margin-bottom: 10px;
+}
+
+.header-container p {
+    font-size: 1.1em;
+}
+
+.hr-top {
+    width: 85%;
+    height: 4px;
+}
+
+.banner-container {
+    margin: 20px 0;
+}
+
+.banner-container img {
+    border-radius: 4px;
+}
+
+.banner-container p {
+    margin-top: 10px;
+}
+
+.about-table {
+    width: 85%;
+    margin: 0 auto;
+    border-collapse: collapse;
+    border: 2px solid #00008b;
+}
+
+.about-table th {
+    background-color: blue;
+    color: white;
+    padding: 12px;
+    border: 2px solid #00008b;
+}
+
+.about-table td {
+    padding: 12px;
+    border: 2px solid #00008b;
+    text-align: center;
+}
+
+/* ===== Programs Table ===== */
+.programs-table {
+    width: 80%;
+    margin: 0 auto;
+    border-collapse: separate;
+    border-spacing: 10px;
+}
+
+.programs-table td {
+    padding: 8px;
+}
+
+.programs-table img {
+    border-radius: 6px;
+}
+
+.why-container {
+    width: 80%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.why-container p {
+    margin: 10px 0;
+    line-height: 1.6;
+}
+
+.form-table {
+    width: 40%;
+    min-width: 350px;
+    margin: 20px auto;
+    border-collapse: collapse;
+    border: 1px solid #333;
+}
+
+.form-table td {
+    padding: 10px;
+    border: 1px solid #ccc;
+}
+
+.form-table td:first-child {
+    text-align: right;
+    font-weight: bold;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="tel"] {
+    width: 100%;
+    padding: 6px 8px;
+    border: 1px solid #999;
+    border-radius: 3px;
+}
+
+input[type="checkbox"] {
+    margin: 5px 5px 0 10px;
+}
+
+input[type="submit"],
+input[type="reset"] {
+    padding: 8px 18px;
+    margin: 5px;
+    background-color: #00008b;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+input[type="submit"]:hover,
+input[type="reset"]:hover {
+    background-color: #0000cc;
+}
+
+/* ===== Footer ===== */
+.footer-hr {
+    width: 90%;
+    height: 8px;
+}
+
+.footer-text {
+    margin: 15px 0 30px;
+}
